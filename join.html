@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+}
+.menuitem {
+  background-color:#33ccff;
+  padding:8px;
+  margin-top:7px;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#33ccff;
+  float:left;
+  width:20%;
+  padding:10px 15px;
+  margin-top:7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width:80%;
+  }
+  .right {
+    width:100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="padding:15px;">
+  <img src="msc.jpg" style="width:100%">
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">    
+    <div class="menuitem"><a href="detail.html">รายละเอียด</a></div>
+    <div class="menuitem"><a href="table.html">ตารางนำเสนอ</a></div>
+    <div class="menuitem"><a href="index.html">กลับไปหน้าแรก</a></div>
+  </div>
+
+  <div class="main">
+    <h2>วิธีการเข้าร่วมฟัง</h2>
+	<p>1. ลงทะเบียนเข้าร่วมฟังผ่านทางเว็บ</p>
+	<a href="http://it.cbs.chula.ac.th">http://it.cbs.chula.ac.th</a>
+	<p>2. จองเข้าฟังผ่านหลักสูตร (ไม่จำกัดจำนวน)</p>
+	<p>3. ลงทะเบียนหน้างาน</p>
+	<p>หมายเหตุ : นิสิต นักศึกษา สถาบันอื่นสามารถจองเข้าฟังเป็นหมู่คณะได้</p>
+    <br>
+	<p style="font-size:150%;">สอบถามรายละเอียดเพิ่มเติมได้ที่<br>โทร: 02-2185715-6</p>
+  </div>
+
+  <div class="right">
+    <h2 style="text-decoration:underline;color:red;">ไม่มีค่าใช้จ่ายในการเข้าร่วม</h2>
+  </div>
+</div>
+
+</body>
+</html>
